@@ -12,7 +12,10 @@
 
     @include( 'partials.header' )
 
-    <h1>hello</h1>
+    <main>
+        <!-- Contenuto che varia in base alla pagina -->
+        @yield( 'content-main' )
+    </main>
 
     @include( 'partials.footer' )
 
