@@ -53,15 +53,27 @@ header{
         .form-control,
         .input-group-text {
             border: none;
+            border-radius: 0;
         }
 
         .form-control {
             padding-right: 5px;
             text-align: end;
+            font-weight: 700;
+            border-bottom: 3px solid transparent;
+            transition: 1s;
+        }
+
+        .form-control:focus{
+            border-color: inherit;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-bottom: 3px solid $blue-dc;
         }
 
         .input-group-text {
             background-color: transparent;
+            border-bottom: 3px solid $blue-dc;
         }
     }
 }
