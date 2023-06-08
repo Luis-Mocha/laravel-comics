@@ -13,14 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
 
     return view('pages.home');
 
 })->name('home');
 
 
-Route::get('/', function () {
+Route::get('/comics', function () {
 
     $comics = config( 'dbComics' );
 
