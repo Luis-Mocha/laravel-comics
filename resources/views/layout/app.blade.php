@@ -22,6 +22,8 @@
         @yield( 'content-main' )
     </main>
 
+    @include( 'partials.buySection' )
+
     @include( 'partials.footer' )
 
 </body>
