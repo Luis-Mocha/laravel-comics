@@ -1,1 +1,1 @@
-footer
+<div>footer section - work in progress</div>
