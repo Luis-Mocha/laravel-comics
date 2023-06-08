@@ -7,6 +7,11 @@ DC-Comics | Comics
 @section( 'content-main' )
 
     <div id="comics-main" class="container">
+
+        <span class="currentSeries">
+            Current Series
+        </span>
+
         @foreach( $comics as $elem )
             
         <div class="comic-card">
@@ -19,6 +24,7 @@ DC-Comics | Comics
         </div>
 
         @endforeach
+
     </div>
 
 @endsection

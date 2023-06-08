@@ -3,7 +3,19 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    padding: 20px 0;
+    padding: 40px 0 0;
+
+    .currentSeries{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 800;
+        background-color: $blue-dc;
+        padding: 10px;
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        transform: translate(0 , -50%);
+    }
 
     .comic-card {
         color: white;
