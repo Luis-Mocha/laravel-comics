@@ -15,6 +15,8 @@
 
     @include( 'partials.header' )
 
+    @include( 'partials.jumbo' )
+
     <main>
         <!-- Contenuto che varia in base alla pagina -->
         @yield( 'content-main' )
