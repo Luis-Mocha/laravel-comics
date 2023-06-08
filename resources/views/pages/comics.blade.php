@@ -29,8 +29,10 @@ DC-Comics | Comics
 
         </div>
 
+        <button class="load-button mx-auto d-block text-uppercase px-4 py-2 fw-bold">
+            Load More
+        </button>
         
-
     </div>
 
 @endsection
