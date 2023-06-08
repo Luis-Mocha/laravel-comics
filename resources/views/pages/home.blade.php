@@ -1,5 +1,8 @@
 @extends( 'layout.app' )
 
+@section ('title-page')
+DC-Comics | Home
+@endsection
 
 @section( 'content-main' )
 
