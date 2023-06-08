@@ -12,18 +12,24 @@ DC-Comics | Comics
             Current Series
         </span>
 
-        @foreach( $comics as $elem )
+        <div class="card-container">
             
-        <div class="comic-card">
-            <!-- <img src=" {{ $elem['thumb'] }} " alt="Thumb">  -->
-            <!-- il link pe la thumb non funziona-->
+            @foreach( $comics as $elem )
+    
+            <div class="comic-card">
+                <!-- <img src=" {{ $elem['thumb'] }} " alt="Thumb">  -->
+                <!-- il link pe la thumb non funziona-->
 
-            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
+                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
 
-            <div class="cardTitle">{{$elem['title']}}</div>
+                <div class="cardTitle">{{$elem['title']}}</div>
+            </div>
+
+            @endforeach
+
         </div>
 
-        @endforeach
+        
 
     </div>
 

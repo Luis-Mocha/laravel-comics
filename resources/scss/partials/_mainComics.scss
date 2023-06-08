@@ -1,9 +1,7 @@
 #comics-main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
     position: relative;
-    padding: 40px 0 0;
+    padding: 40px 0 20px;
 
     .currentSeries{
         color: white;
@@ -17,6 +15,12 @@
         transform: translate(0 , -50%);
     }
 
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     .comic-card {
         color: white;
         width: calc(100% / 6 - 15px );
@@ -24,9 +28,7 @@
 
         img {
             display: block;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
+            // object-fit: cover;
         }
 
         .cardTitle {
