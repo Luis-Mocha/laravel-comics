@@ -1,5 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 
 @import 'partials/_variables.scss';
-@import 'partials/reset.scss';
-@import 'partials/header.scss';
+@import 'partials/_reset.scss';
+@import 'partials/_header.scss';
+
+@import 'partials/_mainComics.scss';
+
+main {
+    background-color: rgb(28,28,28);
+}
