@@ -12,11 +12,11 @@ DC-Comics | Comics
             Current Series
         </span>
 
-        <div class="card-container">
+        <div class="card-container row g-3 my-2">
             
             @foreach( $comics as $elem )
     
-            <div class="comic-card">
+            <div class="comic-card col-sm-6 col-md-4 col-lg-2 d-flex flex-column align-items-center text-center">
                 <!-- <img src=" {{ $elem['thumb'] }} " alt="Thumb">  -->
                 <!-- il link pe la thumb non funziona-->
 
@@ -29,7 +29,7 @@ DC-Comics | Comics
 
         </div>
 
-        <button class="load-button mx-auto d-block text-uppercase px-4 py-2 fw-bold">
+        <button class="load-button mx-auto d-block text-uppercase px-4 py-2 fw-bold mt-5">
             Load More
         </button>
         
