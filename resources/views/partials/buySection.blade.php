@@ -12,7 +12,7 @@
             <li>
                 <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="Digital logo">
                 <a href="">
-                    dic merchandise
+                    dc merchandise
                 </a>
             </li>
 
