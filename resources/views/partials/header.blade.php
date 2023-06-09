@@ -40,7 +40,7 @@
     </nav>
 
     <div id="header-input" class="input-group">
-        <input id="search-input" type="text" placeholder="Search" class="form-control">
+        <input id="search-input" type="text" placeholder="Search" class="form-control" autocomplete="off">
         <span for="search-input" class="input-group-text">
             <i class="fa-solid fa-magnifying-glass text-black"></i>
         </span>
